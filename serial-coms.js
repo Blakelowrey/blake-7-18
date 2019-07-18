@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 //module imports
 const SerialPort = require('serialport');
 const Actuator = require('./actuator');

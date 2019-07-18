@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const SelinoidGroup = require('./selinoid-group');
 class Actuator {
 
