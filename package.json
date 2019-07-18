@@ -1,0 +1,31 @@
+{
+  "name": "Serial-Coms-Server",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serial-coms.js",
+    "dev": "nodemon app"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blakelowrey/Serial-Coms-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blakelowrey/Serial-Coms-Server/issues"
+  },
+  "homepage": "https://github.com/Blakelowrey/Serial-Coms-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "serialport": "^7.1.5"
+  }
+}
